@@ -154,7 +154,7 @@ local theme = lush(function(injected_functions)
     WinBarNC                               { WinBar }, -- WinBarNC       xxx links to WinBar
     Cursor                                 { fg="#1c1c1c", bg="#ffaf5f", }, -- Cursor         xxx guifg=#1c1c1c guibg=#ffaf5f
     lCursor                                { fg="#1c1c1c", bg="#5fff00", }, -- lCursor        xxx guifg=#1c1c1c guibg=#5fff00
-    Normal                                 { fg="#bcbcbc", bg="#1c1c1c", }, -- Normal         xxx ctermfg=250 ctermbg=234 guifg=#bcbcbc guibg=#1c1c1c
+    Normal                                 { fg="#bcbcbc", bg="#131313", }, -- Normal         xxx ctermfg=250 ctermbg=234 guifg=#bcbcbc guibg=#1c1c1c
     NvimSpacing                            { Normal }, -- NvimSpacing    xxx links to Normal
     NvimTreeNormal                         { Normal }, -- NvimTreeNormal xxx links to Normal
     NvimTreePopup                          { Normal }, -- NvimTreePopup  xxx links to Normal
@@ -327,7 +327,7 @@ local theme = lush(function(injected_functions)
     LspInfoTip                             { Comment }, -- LspInfoTip     xxx links to Comment
     vimCommentString                       { Comment }, -- vimCommentString xxx links to Comment
     Underlined                             { gui="underline", }, -- Underlined     xxx cterm=underline gui=underline
-    MatchParen                             { bg="#1c1c1c", gui="reverse", fg="#5f8787", }, -- MatchParen     xxx cterm=reverse ctermfg=66 ctermbg=234 gui=reverse guifg=#5f8787 guibg=#1c1c1c
+    MatchParen                             { bg="#ff966c", gui="reverse", fg="#131313", }, -- MatchParen     xxx cterm=reverse ctermfg=66 ctermbg=234 gui=reverse guifg=#5f8787 guibg=#1c1c1c
     NvimInternalError                      { fg="red", bg="red", }, -- NvimInternalError xxx ctermfg=9 ctermbg=9 guifg=Red guibg=Red
     NvimFigureBrace                        { NvimInternalError }, -- NvimFigureBrace xxx links to NvimInternalError
     NvimSingleQuotedUnknownEscape          { NvimInternalError }, -- NvimSingleQuotedUnknownEscape xxx links to NvimInternalError
